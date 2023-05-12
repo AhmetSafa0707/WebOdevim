@@ -3,8 +3,23 @@
     width: 100%;
     min-height: 100vh;
     height: 100%;
-    position:relative;
-    
+    position: relative;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a {
+    color: rgb(21, 7, 101);
+}
+
+a:hover {
+    color: rgb(10, 10, 182);
+    letter-spacing: 3px;
+    transition: 0.8s;
 }
 
 p {
@@ -22,74 +37,129 @@ p {
     margin: 5%;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.altmenu{
-    position:relative;
+.altmenu {
+    position: relative;
     bottom: 0;
     right: 0;
-    left :0;
+    left: 0;
     text-align: center;
-    padding : 0.5rem;
-    background :#23262a;
+    padding: 0.2rem;
+    background: #23262a;
     color: #ccc;
-    font-size : 19px
-
+    font-size: 19px
 }
 
-.altmenu h4{
-  
+.altmenuacilis {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 0.3rem;
+    background: #23262a;
+    color: #ccc;
+    font-size: 19px
+}
+
+.altmenu h4 {
+
     text-align: left;
     margin-left: 1%;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
-    border-radius:6px;
+    border-radius: 6px;
     object-fit: contain;
     position: relative;
-    
+
 }
 
-.kitap img{
-   width: 80%;
-    object-fit:contain;   
-}
-.kitap h2{
-   text-align: center; 
+.kitap img {
+    width: 80%;
+    object-fit: contain;
 }
 
-.ozlusoz{
-text-align: left;
-color: #fff;
-text-shadow: 0 0 8px black;
-font-size: 30px;
-padding-bottom: 5%;
+.kitap h2 {
+    text-align: center;
 }
 
-.takim img{
+.ozlusoz {
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 0 8px black;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+.takim img {
     width: 40%;
     height: 40;
-     object-fit:cover;
-     padding-bottom: 10%;
-     padding-top: 5%;   
- }
+    object-fit: cover;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
 
- .sanatci img{
+.sanatci img {
     width: 100%;
     height: 320px;
     padding: 5%;
 }
 
-.sanatci{
+.sanatci {
     text-align: center;
 }
 
-.ElazigCerceve{
+.ElazigCerceve {
     width: 65%;
-    
+    display: inline-block;
+    position: relative;
+
 }
 
+.elazigfotolar {
+    width: 30%;
+    height: 80%;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.elazigfotolar img {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+.elazigfotolar h2 {
+
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.cerceveelazig {
+    border-radius: 3px;
+    border: 2px solid rgb(3, 9, 74);
+    padding-left: 15px;
+    object-fit: cover;
+    position: relative;
+    margin: 5%;
+    display: flex;
+}
+
+.elazigslider img {
+    object-fit: cover;
+}
+
+.elazigslidercerceve {
+    width: 75%;
+    padding: 2%;
+    object-fit: cover;
+    position: relative;
+}
