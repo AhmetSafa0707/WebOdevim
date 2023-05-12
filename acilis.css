@@ -14,3 +14,16 @@ a:hover{
     transition: 0.8s;
 }
 
+.altmenu {
+    position: relaative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem;
+    background: #23262a;
+    color: #ccc;
+    font-size: 19px
+}
+
+
