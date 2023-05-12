@@ -1,0 +1,95 @@
+.arkaplan {
+    background: linear-gradient(to bottom, rgb(241, 237, 237), rgb(110, 109, 118));
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position:relative;
+    
+}
+
+p {
+    font-size: 20px;
+    font-style: oblique;
+    padding: 5px;
+}
+
+.cerceve {
+    border-radius: 3px;
+    border: 2px solid rgb(3, 9, 74);
+    padding-left: 15px;
+    object-fit: cover;
+    position: relative;
+    margin: 5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.altmenu{
+    position:relative;
+    bottom: 0;
+    right: 0;
+    left :0;
+    text-align: center;
+    padding : 0.5rem;
+    background :#23262a;
+    color: #ccc;
+    font-size : 19px
+
+}
+
+.altmenu h4{
+  
+    text-align: left;
+    margin-left: 1%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:6px;
+    object-fit: contain;
+    position: relative;
+    
+}
+
+.kitap img{
+   width: 80%;
+    object-fit:contain;   
+}
+.kitap h2{
+   text-align: center; 
+}
+
+.ozlusoz{
+text-align: left;
+color: #fff;
+text-shadow: 0 0 8px black;
+font-size: 30px;
+padding-bottom: 5%;
+}
+
+.takim img{
+    width: 40%;
+    height: 40;
+     object-fit:cover;
+     padding-bottom: 10%;
+     padding-top: 5%;   
+ }
+
+ .sanatci img{
+    width: 100%;
+    height: 320px;
+    padding: 5%;
+}
+
+.sanatci{
+    text-align: center;
+}
+
+.ElazigCerceve{
+    width: 65%;
+    
+}
+
