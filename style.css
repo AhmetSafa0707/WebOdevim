@@ -161,7 +161,6 @@ img {
     width: 75%;
     padding: 2%;
     object-fit: cover;
-    position: relative;
 }
 
 .cimsitcerceve {
@@ -204,4 +203,47 @@ img {
     padding: auto;
     height: 360px;
     
+}
+
+.egitimcerceve{
+    border-radius: 3px;
+    border: 2px solid rgb(3, 9, 74);
+    padding: 15px;
+    object-fit: cover;
+    position: relative;
+    margin: 5%;
+}
+
+.arkaplanilgi{
+    background: url(resimler/borsa-96yM_cover.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    
+    .cerceve{
+        border-radius: 3px;
+        background-color: #35363b78;
+        border: 2px solid rgb(156, 157, 165);
+        padding: 15px;
+        object-fit: cover;
+        position: relative;
+        margin: 5%;
+    }
+}
+.altmenuilgi{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem;
+    background: #23262a;
+    color: #ccc;
+    font-size: 19px
 }
