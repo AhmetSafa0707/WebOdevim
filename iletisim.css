@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.altmenuiletisim {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem;
+    background: #23262a;
+    color: #ccc;
+    font-size: 19px
+}
+
+
+
+.cerceveiletisim {
+    border-radius: 3px;
+    background-color: #2d2d3051;
+    border: 2px solid rgb(229, 230, 234);
+    padding: 25px;
+    width: 40%;
+    min-width: min-content;
+    object-fit: cover;
+    position: relative;
+    color:  rgb(229, 230, 234);
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.cerceveiletisim form .input-box input{
+    margin-top:10px;
+}
+
+.cerceveiletisim form .input-box input {   
+    font-size: 20px;
+    border: none;
+    border-color: transparent;
+    color: #ffffff;
+    background-color: rgba(162, 162, 162, 0);
+    letter-spacing: 2px;
+}
+
+
+.cerceveiletisim form .input-box ::-webkit-input-placeholder {
+    color: rgba(251, 251, 251, 0.746);
+    font-size: 25px;
+}
+
+.cerceveiletisim form .input-box input[type="submit"] {
+    width: 45%;
+    font-size: 20px;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgba(105, 105, 109, 0.667);
+    background: rgb(0, 0, 0);
+}
+
+.cerceveiletisim form .input-box input[type="submit"]:hover {
+    letter-spacing: 4px;
+    color: #000000;
+    background: rgb(209, 209, 225);
+    border: 2px solid rgb(23, 23, 24);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+
+.cerceveiletisim form .input-box input[type="reset"] {
+    width: 45%;
+    font-size: 20px;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgba(105, 105, 109, 0.667);
+    background: rgb(0, 0, 0);
+}
+
+.cerceveiletisim form .input-box input[type="reset"]:hover {
+    letter-spacing: 4px;
+    color: #000000;
+    background: rgb(209, 209, 225);
+    border: 2px solid rgb(23, 23, 24);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+
+.cerceveiletisim form .input-box input[type="button"] {
+    width: 45%;
+    font-size: 20px;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgba(105, 105, 109, 0.667);
+    background: rgb(0, 0, 0);
+}
+
+.cerceveiletisim form .input-box input[type="button"]:hover {
+    letter-spacing: 4px;
+    color: #000000;
+    background: rgb(209, 209, 225);
+    border: 2px solid rgb(23, 23, 24);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.arkaplanİletisim {
+
+    background-image: url(resimler/fantezi-gezegen-dunya-uzay-evren-duvar-kagidi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    color: rgb(229, 230, 234);
+}

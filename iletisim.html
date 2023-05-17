@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="acilis.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iletisim.css">
+
+
+    <title>İletişim</title>
+
+</head>
+
+
+
+<div>
+    <div class="arkaplanİletisim">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="width:100%">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="acilis.html">Ahmet Safa</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-2">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="hakkimda.html">Hakkımda<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="ozgecmis.html">Özgeçmiş <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="sehrim.html">Şehrim<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="mirasımız.html">Mirasımız<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="ilgialanlarim.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+                <a href="girisyap.html"> <button class="btn btn-outline-light my-2 my-sm-0" type="link" disabled>Giriş
+                        Yap</button></a>
+
+            </div>
+        </nav>
+
+
+        <div class="row justify-content-around">
+
+            <div class="col-sm-12 ">
+                <h1 style="text-align: center;">Bize Yazın</h1>
+                <div class="underline"
+                    style="position: absolute;height: 1.3px;width: 100%; background:rgb(229, 230, 234);left: 0;right: 0;">
+                </div>
+                <h3 style="text-align: center;padding-top: 8px;">Lütfen Formu Doldurunuz</h3>
+            </div>
+
+            <div class="cerceveiletisim">
+                <div class=" col-sm-10 ">
+                    <form action="" method="POST">
+
+                        <div class="input-box">
+                            <input type="text" name="kullaniciIsmi" placeholder="Adınız:" autocomplete="off">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="kullaniciSoyIsmi" placeholder="Soyadınız:" autocomplete="off">
+                        </div>
+                        <div class="input-box">
+                            <input type="email" name="kullaniciMail" placeholder="E-posta Adresiniz:">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" name="kullaniciSifre" placeholder="Şifreniz:">
+                        </div>
+                        <br>
+                        <h3>Cinsiyetiniz:</h3>
+                        <div class="input-box">
+                            <h5 style="display: inline-block;">Erkek</h5> <input type="radio" name="kullaniciCinsiyet"
+                                value="Erkek">
+                        </div>
+                        <div class="input-box">
+                            <h5 style="display: inline-block;">Kadın</h5><input type="radio" name="kullaniciCinsiyet"
+                                value="Kadın">
+                        </div>
+
+                        <h3>Hobileriniz:</h3>
+
+                        <div class="input-box">
+                            <input type="checkbox" name="inputHobiler">
+                            <h5 style="display: inline-block;">Yüzmek</h5>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" name="inputHobiler">
+                            <h5 style="display: inline-block;">Sinemaya Gitmek</h5>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" name="inputHobiler">
+                            <h5 style="display: inline-block;">Kamp Yapmak</h5>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="mesajInput" id="mesajAlani" cols="30" rows="10" placeholder="Mesajınız..."
+                                style="background-color: rgba(200, 207, 207, 0.09);color:rgb(229, 230, 234) ;"></textarea>
+                        </div>
+                       
+                        <div class="input-box">
+                            <input type="submit" name="kullaniciGonder">
+                        </div>
+                        <div class="input-box">
+                            <input type="reset" name="kullaniciSil">
+                        </div>
+                        <div class="input-box">
+                            <input type="button" name="kullaniciDenetle" value="Denetle">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="altmenuiletisim">
+            <h4>Sakarya,Türkiye 2023</h4>
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="iletisim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    </body>
+
+</html>
