@@ -10,7 +10,7 @@
     width: 85%;
     height: 60%;
     margin-top: 15%;
-    background:linear-gradient(to bottom,rgba(81, 230, 228, 0.367),rgba(8, 216, 199, 0.205));
+    background:linear-gradient(to bottom,rgba(81, 230, 228, 0.504),rgba(8, 216, 199, 0.205));
 }
 .container{
     display: flex;
