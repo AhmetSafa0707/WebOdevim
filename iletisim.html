@@ -66,19 +66,23 @@
 
             <div class="cerceveiletisim">
                 <div class=" col-sm-10 ">
-                    <form action="" method="POST">
+                    <form method="post">
 
                         <div class="input-box">
-                            <input type="text" name="kullaniciIsmi" placeholder="Adınız:" autocomplete="off">
+                            <label for="kullaniciIsmi"></label>
+                            <input type="text" name="kullaniciIsmi" id="kullaniciIsmi" placeholder="Adınız:" autocomplete="off">
                         </div>
                         <div class="input-box">
-                            <input type="text" name="kullaniciSoyIsmi" placeholder="Soyadınız:" autocomplete="off">
+                            <label for="kullaniciSoyIsmi"></label>
+                            <input type="text" name="kullaniciSoyIsmi" id="kullaniciSoyIsmi" placeholder="Soyadınız:" autocomplete="off">
                         </div>
                         <div class="input-box">
-                            <input type="email" name="kullaniciMail" placeholder="E-posta Adresiniz:">
+                            <label for="kullaniciMail"></label>
+                            <input type="email" name="kullaniciMail" id="kullaniciMail" placeholder="E-posta Adresiniz:">
                         </div>
                         <div class="input-box">
-                            <input type="password" name="kullaniciSifre" placeholder="Şifreniz:">
+                            <label for="kullaniciSifre"></label>
+                            <input type="password" name="kullaniciSifre" id="kullaniciSifre" placeholder="Şifreniz:">
                         </div>
                         <br>
                         <h3>Cinsiyetiniz:</h3>
@@ -110,17 +114,15 @@
                             <textarea name="mesajInput" id="mesajAlani" cols="30" rows="10" placeholder="Mesajınız..."
                                 style="background-color: rgba(200, 207, 207, 0.09);color:rgb(229, 230, 234) ;"></textarea>
                         </div>
-                       
-                        <div class="input-box">
-                            <input type="submit" name="kullaniciGonder">
-                        </div>
+  
                         <div class="input-box">
                             <input type="reset" name="kullaniciSil">
                         </div>
                         <div class="input-box">
-                            <input type="button" name="kullaniciDenetle" value="Denetle">
+                            <input type="button" name="kullaniciDenetle" onclick="validateForm()" value="Gönder">
                         </div>
-                        
+
+                        <div id="sonuc"></div>
                     </form>
                 </div>
             </div>
@@ -138,7 +140,7 @@
 
 
 
-<script src="iletisim.js"></script>
+    <script src="iletisim.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
