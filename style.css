@@ -8,6 +8,16 @@
 
 }
 
+.arkaplanhakkimda {
+    background: linear-gradient(to bottom, rgb(241, 237, 237), rgb(110, 109, 118));
+    width: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+
+}
+
 a:link {
     text-decoration: none;
 
@@ -110,6 +120,15 @@ img {
     width: 100%;
     height: 320px;
     padding: 5%;
+}
+
+.cercevesantaci{
+    border-radius: 3px;
+    border: 2px solid rgb(3, 9, 74);
+    padding-left: 15px;
+    object-fit: cover;
+    position:relative;
+    margin: 5%;
 }
 
 .sanatci {

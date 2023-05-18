@@ -33,5 +33,5 @@ var nameRegex = /^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$/;
   }
 
   // Tüm kontroller başarılı ise sayfaya yönlendir
-   window.location.href = "hakkimda.html";
+  sonucDiv.innerHTML = "Tüm bilgiler doğru bir şekilde girildi.Gönder butonuna basınız.";
 }
